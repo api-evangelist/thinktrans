@@ -1,4 +1,16 @@
 aid: thinktrans
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thinktrans.png
 name: thinktrans
 description: thinktrans is a company surfaced as a portfolio company of qiming and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,12 @@ maintainers:
 common:
 - type: Website
   url: https://thinktrans.cn
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'thinktrans.cn has no DNS A record (unreachable); source portfolio (qiming)
+    marks is_api_provider:false/status:unknown. No reachable website, developer portal,
+    docs, or spec. WebSearch budget exhausted; DNS+WebFetch probes completed with no
+    API surface found.'
